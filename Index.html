@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    
+</head>
+<body>
+    <header>
+        <img src="Img/Frame 6.png" alt="Logo Alura" class="Logo">
+        <h1>Encriptador de texto</h1>
+    </header>
+        <main>
+            <section>
+                <textarea id="Text-encriptado" class="Text" placeholder="Ingrese texto para encriptar..." cols="36" rows="16"></textarea>
+            <div>
+                 <h6 class="Informacion">&#9757 Solo letras minusculas, sin acentos, ni caracteres especiales</h6>   
+            </div> 
+            <div class="btn">
+                <button class="btnEncriptar" onclick="btnencriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btndesencriptar()">Desencriptar</button>
+            </div>    
+            </section>
+            <section>
+                <div>
+                    <textarea id="area-mensaje" class="Mensaje" placeholder="Texto encriptado... " cols="24" rows="16"></textarea>
+                </div>
+                
+                <div>
+                    <button id="copiar" class="btnCopiar" onclick="copiartexto()">Copiar texto</button>   
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="Copyright"> &copy Copyright Encriptador de texto - 2024</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>

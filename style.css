@@ -1,0 +1,85 @@
+*, footer{
+    font-family: "Kode Mono", monospace;
+    font-size: 16px;
+    background: rgb(119, 132, 162);
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+}
+
+body{
+    width: 940px;
+}
+
+.Logo{
+    size: 10px;
+    margin:20px;
+    padding-top: 10px;
+}
+
+main{
+    display: flex;
+    margin: 30px 100px 30px;
+}
+
+.Informacion{
+    color: #FFFFFF;
+    font-weight: bold;
+    width:max-content;
+    font-size:11px;
+    margin: 10px 4px;
+    
+}
+
+.Text,.Mensaje{
+    border: none;
+    background: rgb(246, 247, 248);
+    text-transform: lowercase;
+    border-radius: 4px;
+    outline: none;
+}
+
+.Mensaje{
+    background-image: url(Img/1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 40px;
+}
+
+
+.btnEncriptar, .btnCopiar{
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF ;
+    margin: 20px 10px;
+    background: #0A3871;
+}
+
+.btnDesencriptar{
+    border-radius: 10px;
+    font-size: 18px;
+    color: #0A3871;
+    margin: 0 0;
+    background: #FFFFFF;
+}
+
+.btnCopiar{
+    margin: 55px 80px;
+    padding: 0 20px;
+    padding-inline: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.Copyright{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 0px;
+}
